@@ -1,0 +1,67 @@
+<div id="mission_container">
+  <div id="myCarousel" class="carousel slide">
+
+    <!-- indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" ></li>
+      <li data-target="#myCarousel" data-slide-to="1" ></li>
+      <li data-target="#myCarousel" data-slide-to="2" ></li>
+    </ol>
+  
+    <!-- define carousel items -->
+    <div class="carousel-inner">
+      
+      <div class="item active pix-container">
+        <div class="item-pix carousel-pix">
+          <%= image_tag("/images/youth.png", alt: "", class: "img-responsive") %>
+        </div>
+
+        <!-- center text in a container tag -->
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Why skihlz&trade;? </h1>
+            <p>Remind girls and boys they are equipotent! Rauhmel Fox relays a solid message, "skihlz&trade;, knowledge, and effort are three distinct elements of individual performance. Combined together, they create an enormously potent compound, you!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item pix-container">
+        <div class="item-pix">
+          <%= image_tag("/images/youth.png", alt: "") %>
+        </div>
+
+        <!-- center text in a container tag -->
+       <!--  <div class="container">
+          <div class="carousel-caption">
+            <h1>My Heading Text</h1>
+            <p>Text that will appear under each picture</p>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="item pix-container">
+        <div class="item-pix">
+          <%= image_tag("/images/youth.png", alt: "random city") %>
+        </div>
+
+        <!-- center text in a container tag -->
+        <!-- <div class="container">
+          <div class="carousel-caption">
+            <h1>My Heading Text</h1>
+            <p>Text that will appear under each picture</p>
+          </div>
+        </div> -->
+      </div>
+
+    </div>
+
+    <!-- controller buttons -->
+    <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+
+    <a href="#myCarousel" class="right carousel-control" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</div>
